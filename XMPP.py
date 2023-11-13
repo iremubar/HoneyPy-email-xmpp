@@ -9,7 +9,7 @@ import base64
 
 class XMPP(protocol.Protocol):
     session = None
-    auth_step = 0 # 0: esperando usuario, 1: esperando contraseña, 2: esperando mensaje
+    auth_step = 0 # 0: esperando usuario, 1: esperando contrasena, 2: esperando mensaje
     
     def connectionMade(self):
         self.connect()
